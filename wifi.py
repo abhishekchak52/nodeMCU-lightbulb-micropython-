@@ -1,9 +1,8 @@
 def connect():
 	""" Connects to wifi with the stored credentials """
 	import network 
-
-	ssid = "Default"
-	password = "@24310143#"
+	import credentials
+	
 
 	station = network.WLAN(network.STA_IF)
 
