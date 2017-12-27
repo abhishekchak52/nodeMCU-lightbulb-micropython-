@@ -24,5 +24,5 @@ while True:
 	elif state == 'on':
 		led.off()
 		led2.off()
-	time.sleep(0.5)
+	# time.sleep(0.5)
 
